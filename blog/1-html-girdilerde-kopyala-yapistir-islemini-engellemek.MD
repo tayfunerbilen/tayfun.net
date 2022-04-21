@@ -1,11 +1,11 @@
 # HTML girdilerde kopyala-yapıştır işlemini engellemek
 
-Kullanıcıdan bilgi almamız gereken durumlarda `<input />` ve `<textarea />` gibi form etiketlerini kullanıyoruz ve bazı durumlarda kullanıcıların bu etiketlere kopyala-yapıştır yapmasını engellemek isteyebiliriz.
+Kullanıcıdan bilgi almamız gereken durumlarda `<input />` ve `<textarea />` gibi form etiketlerini kullanıyoruz ve bazı durumlarda kullanıcıların bu etiketlere kopyala-yapıştır yapmasını engellemek isteyebilirsin.
 
-Örneğin kredi kartının son 3 hanesinin girildiği bir senaryoda kullanıcının bunu doğrudan yapıştırmasını engellemek isteyebiliriz.
-Ya da önemli bir veriyi normal kullanıcıların kopyalamayacağı şekilde ayarlamak isteyebiliriz. Normal kullanıcı diyoruz çünkü geliştiriciler için ön tarafta yapılan önlemlerin çok bir önemi yok biliyorsunuz.
+Örneğin kredi kartının son 3 hanesinin girildiği bir senaryoda kullanıcının bunu doğrudan yapıştırmasını engellemek isteyebilirsin.
+Ya da önemli bir veriyi normal kullanıcıların kopyalamayacağı şekilde ayarlamak isteyebilirsin. Normal kullanıcı diyorum çünkü geliştiriciler için ön tarafta yapılan önlemlerin çok bir önemi yok biliyorsun :)
 
-Bu gibi durumlarda kopyalamayı engellemek için `oncopy`, yapıştırmayı engellemek için `onpaste` eventlarında işlem yapabiliriz.
+Bu gibi durumlarda kopyalamayı engellemek için `oncopy`, yapıştırmayı engellemek için `onpaste` olaylarında işlem yapabilirsin.
 
 Yapıştırmayı engellediğimiz bir örnek:
 
@@ -25,4 +25,4 @@ Kopyalamayı engellediğimiz bir örnek:
 <input type="text" name="email" value="tayfun@erbilen.net" oncopy="return false" />
 ```
 
-Ayrıca her iki event'ı aynı etikete koyarak kopyala-yapıştırı normal kullanıcılar için tamamen engelleyebilirsiniz.
+Ayrıca her iki olayı aynı etikete koyarak kopyala-yapıştırı normal kullanıcılar için tamamen engellemiş oluruz.
