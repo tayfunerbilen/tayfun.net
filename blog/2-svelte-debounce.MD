@@ -56,4 +56,4 @@ Yazılan değer: {search}
 ```
 demo: [https://svelte.dev/repl/17495840263348d39d9efe6e473b13ef?version=3.47.0](https://svelte.dev/repl/17495840263348d39d9efe6e473b13ef?version=3.47.0)
 
-Bunu genelde autocomplete yaptığınız aramalarda ve performansı artırmak için kullanabilirsin.
+> Bunu genelde autocomplete yaptığınız aramalarda ve performansı artırmak için kullanabilirsin.
