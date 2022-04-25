@@ -1,4 +1,4 @@
-# Svelte Debounce
+# Svelte Debounce Yaklaşımı
 
 Svelte'de kullanıcıdan bilgi alırken girilen bilgiyi state'e aktarmak için `bind:value` diyerek doğrudan state'in güncellenmesini sağlıyoruz.
 
