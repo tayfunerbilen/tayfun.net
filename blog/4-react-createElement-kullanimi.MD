@@ -8,7 +8,7 @@ JSX'i başka bir yazıda inceleriz, şimdilik bu kadarını bilsek yeterli olur 
 
 ```js
 // ./components/Button.js
-function Button({ children, icon = false, iconPosition: 'left', size = 'big', theme = 'default', ...props }) {
+function Button({ children, icon = false, iconPosition = 'left', size = 'big', theme = 'default', ...props }) {
   return (
     <button className={classNames({
       "flex items-center justify-center gap-x-1.5 text-center font-medium px-3 transition-colors rounded border shadow": true,
@@ -78,7 +78,7 @@ Yani 3 parametre alıyor, etiketin adı, prop'lar ve text. Şimdi bunu bizim com
 // ./components/Button.js
 import { createElement } from "react"
 
-function Button({ children, as = 'button', icon = false, iconPosition: 'left', size = 'big', theme = 'default', ...props }) {
+function Button({ children, as = 'button', icon = false, iconPosition = 'left', size = 'big', theme = 'default', ...props }) {
   return createElement(as, {
     className: classNames({
       "flex items-center justify-center gap-x-1.5 text-center font-medium px-3 transition-colors rounded border shadow": true,
@@ -90,7 +90,7 @@ function Button({ children, as = 'button', icon = false, iconPosition: 'left', s
       "flex-row-reverse": iconPosition === 'right'
     }),
     ...props
-  }, children)
+  }, icon, children)
 }
 
 export default Button
