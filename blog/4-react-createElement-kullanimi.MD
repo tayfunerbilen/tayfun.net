@@ -4,11 +4,11 @@ Bildiğiniz gibi react'de html değil JSX yazıyoruz. Kullanımı kolay olması 
 
 JSX'i başka bir yazıda inceleriz, şimdilik bu kadarını bilsek yeterli olur sanırım. Peki JSX gibi güzel bir nimet varken neden `createElement()` API'si kullanılır? Aslında bunu bir örnekle açıklamak istiyorum.
 
-Örneğin bir `Button` componentimiz olsun. Ve bu componentimiz bazı `prop` lar alsın. Nedir bunlar, örneğin `icon`, `iconPosition`, `size`, `thene` gibi bir butonda olabilecek temel nitelikler.
+Örneğin bir `Button` componentimiz olsun. Ve bu componentimiz bazı `prop` lar alsın. Nedir bunlar, örneğin `icon`, `iconPosition`, `size`, `theme` gibi bir butonda olabilecek temel özellikler.
 
 ```js
 // ./components/Button.js
-function Button({ children, icon = false, iconPosition = 'left', size = 'big', theme = 'default', ...props }) {
+function Button({ children, icon = false, iconPosition: 'left', size = 'big', theme = 'default', ...props }) {
   return (
     <button className={classNames({
       "flex items-center justify-center gap-x-1.5 text-center font-medium px-3 transition-colors rounded border shadow": true,
@@ -78,7 +78,7 @@ Yani 3 parametre alıyor, etiketin adı, prop'lar ve text. Şimdi bunu bizim com
 // ./components/Button.js
 import { createElement } from "react"
 
-function Button({ children, as = 'button', icon = false, iconPosition = 'left', size = 'big', theme = 'default', ...props }) {
+function Button({ children, as = 'button', icon = false, iconPosition: 'left', size = 'big', theme = 'default', ...props }) {
   return createElement(as, {
     className: classNames({
       "flex items-center justify-center gap-x-1.5 text-center font-medium px-3 transition-colors rounded border shadow": true,
@@ -90,7 +90,7 @@ function Button({ children, as = 'button', icon = false, iconPosition = 'left', 
       "flex-row-reverse": iconPosition === 'right'
     }),
     ...props
-  }, icon, children)
+  }, children)
 }
 
 export default Button
