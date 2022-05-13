@@ -1,3 +1,8 @@
+---
+title: 'Svelte Debounce Yaklaşımı'
+date: '2022-04-26'
+---
+
 # Svelte Debounce Yaklaşımı
 
 Svelte'de kullanıcıdan bilgi alırken girilen bilgiyi state'e aktarmak için `bind:value` diyerek doğrudan state'in güncellenmesini sağlıyoruz.
