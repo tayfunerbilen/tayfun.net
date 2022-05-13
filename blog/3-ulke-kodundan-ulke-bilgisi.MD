@@ -1,3 +1,8 @@
+---
+title: 'Ülke Kodundan Ülke bilgisi'
+date: '2022-04-26'
+---
+
 # Ülke Kodundan Ülke bilgisi
 
 Javascript'de `Intl` sınıfınds bir çok işe yarar metod var, bunlardan bir tanesi bugün işime yaradı. Elimde ülke kodu mevcut bir dizi var ve bu ülke kodlarına hangi ülke ve hangi dil olduğunu göstermek istiyordum.
