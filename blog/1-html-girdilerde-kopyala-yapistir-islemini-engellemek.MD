@@ -1,3 +1,8 @@
+---
+title: 'HTML girdilerde kopyala-yapıştır işlemini engellemek'
+date: '2022-04-21'
+---
+
 # HTML girdilerde kopyala-yapıştır işlemini engellemek
 
 Kullanıcıdan bilgi almamız gereken durumlarda `<input />` ve `<textarea />` gibi form etiketlerini kullanıyoruz ve bazı durumlarda kullanıcıların bu etiketlere kopyala-yapıştır yapmasını engellemek isteyebilirsin.
