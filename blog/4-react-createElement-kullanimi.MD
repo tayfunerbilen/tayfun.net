@@ -1,3 +1,8 @@
+---
+title: 'React createElement() Kullanımı'
+date: '2022-05-10'
+---
+
 # React createElement() Kullanımı
 
 Bildiğiniz gibi react'de html değil JSX yazıyoruz. Kullanımı kolay olması açısından neredeyse her şey html ile aynı. Tek önemli fark, etiketlerde `class` niteliği yerine `className` kullanıyoruz. Ya da örneğin `onclick` yerine `onClick` kullanıyoruz vs.
