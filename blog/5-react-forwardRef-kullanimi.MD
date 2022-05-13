@@ -1,3 +1,8 @@
+---
+title: 'React forwardRef() Kullanımı'
+date: '2022-05-11'
+---
+
 # React forwardRef() Kullanımı
 
 React'de bir DOM elemanına ulaşmak için `useRef()` ile ref'lemek gerekiyor. Örneğin;
