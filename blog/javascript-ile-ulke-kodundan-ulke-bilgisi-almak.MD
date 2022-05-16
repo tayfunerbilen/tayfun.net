@@ -5,7 +5,7 @@ date: '2022-04-26'
 
 # JavaScript ile ülke kodundan ülke bilgisi almak
 
-Javascript'de `Intl` sınıfınds bir çok işe yarar metod var, bunlardan bir tanesi bugün işime yaradı. Elimde ülke kodu mevcut bir dizi var ve bu ülke kodlarına hangi ülke ve hangi dil olduğunu göstermek istiyordum.
+Javascript'de `Intl` sınıfında bir çok işe yarar metod var, bunlardan bir tanesi bugün işime yaradı. Elimde ülke kodu mevcut bir dizi var ve bu ülke kodlarına hangi ülke ve hangi dil olduğunu göstermek istiyordum.
 
 Bunun için `Intl` altındaki `DisplayNames()` metodunu kullandım. Örneğin;
 
