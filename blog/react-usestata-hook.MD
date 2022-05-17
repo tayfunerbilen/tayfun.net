@@ -13,7 +13,7 @@ Ayrıca `useState()` içinde o state'in başlangıç değerini belirleyebilirsin
 
 Kısaca react'de bir state oluşturmak şöyle:
 
-```js
+```jsx
 import {useState} from "react"
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
 
 Ayrıca state'i güncellemek için kullanacağınız fonksiyon'a parametre olarak bir callback fonksiyonu tanımladığınızda bir önceki değerini alıp işlem yapabiliyorsunuz. Örneğin:
 
-```js
+```jsx
 import {useState} from "react"
 
 function App() {
