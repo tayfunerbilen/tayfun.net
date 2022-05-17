@@ -1,3 +1,8 @@
+---
+title: 'React useState() Hook'
+date: '2022-05-17'
+---
+
 # React useState() Hook
 
 React'de state oluşturmak için bu hook'u kullanıyoruz. Bize dizi olarak iki değer dönüyor. İlki oluşturulan değeri tutan değişken, diğeri ise bu değeri güncellemek için gerekli fonksiyon.
