@@ -1,3 +1,8 @@
+---
+title: 'React Component Yapısı'
+date: '2022-05-23'
+---
+
 # React Component Yapısı
 
 Component yapısı sadece react'e özgü bir şey değil. Bütün javascript frameworklerinde bulunan bu yapı sayesinde, ihtiyacımız olan her şeyi component'lere bölerek yeniden kullanılabilir hale getirebilir ve tekrardan kod yazmayı engelleyebiliriz.
