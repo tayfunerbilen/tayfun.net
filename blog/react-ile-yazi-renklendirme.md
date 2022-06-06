@@ -126,7 +126,7 @@ export default function App() {
       <br />
       <Highlight
         includes="highlight"
-        render={(tag) => <mark onClick={clickTag}>{tag}</mark>}
+        render={(text) => <mark>{text}</mark>}
       >
         Bu örnekte ise herhangi bir kelimeyi highlight edebiliriz. Ve highlight
         edilen değerin kaç kere geçtiği önemsizdir.
