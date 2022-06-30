@@ -5,7 +5,9 @@ date: '2022-06-30'
 
 # Şahıs Şirketi Açtım
 
-4 hafta önce react bootcamp'i vermeye başlamıştım. Geçen hafta sonu bitirdim ve fatura işini arkadaşımdan hallederim diye düşünüyordum ama onunda gelir vergisi oranı yüksek çıkınca iş başa düştü. Dedim en iyisi bir şahıs şirketi kurayım, 30 yaşını henüz doldurmadığım içine genç şeysinden yararlanırım dedim.
+4 hafta önce react bootcamp'i vermeye başlamıştım. Geçen hafta sonu bitirdim ve fatura işini arkadaşımdan hallederim diye düşünüyordum ama onunda gelir vergisi oranı yüksek çıkınca iş başa düştü. Dedim en iyisi bir şahıs şirketi kurayım, 30 yaşını henüz doldurmadığım içinde genç şeysinden yararlanırım dedim.
+
+Bu arada 30'a 6 ay kaldı, muhasebeci 6 ay faydalanırsın dedi ama vergi dairesinde önemli olan ne kadar kaldığı değil 30 yaşına gelmeden önce açılışı vermiş olman dedi, yani 3 sene faydalanabiliyormuşum bu da ek bir bilgi olsun benim gibi orta-yaşlılara :D
 
 2 gün önce muhasebeciye gidip açılışı verdim. Açılışta 750₺ gibi bir ücret ödedim, aylıkta muhasebeciye 250₺ gibi bir ücret ödeyecekmişim sanırım :D Ertesi gün vergi dairesine gidip online giriş bilgilerini aldım. Bugünde yine vergi dairesinde yoklama yaptırdım, adres olarak evi gösterdiğimiz için gelip kontrol ediyorlarmış ama gelen giden olmayınca ben kendim gidip hallettim.
 
