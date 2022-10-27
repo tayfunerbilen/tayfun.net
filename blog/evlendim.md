@@ -5,7 +5,7 @@ date: '2022-10-27'
 
 # Evlendim
 
-![](./images/OZZO7409.JPG)
+![](images/OZZO7409.JPG)
 
 Evet, aslında evleneli bu yazıyı paylaştığım tarihi baz alırsak 12 gün oldu. 15 Ekim 2022'de dünya evine girmiş bulunuyorum.
 
