@@ -1,0 +1,21 @@
+---
+title: 'Expo "Error installing or running app. Error: xcrun exited with non-zero code: 2" Sorunu'
+date: '2022-12-02'
+---
+
+# Expo "Error installing or running app. Error: xcrun exited with non-zero code: 2" Sorunu
+
+Expo projenizde `npm run ios` komutu ile çalıştırırken aşağıdaki gibi bir hata alıyorsanız:
+
+```
+...
+Error installing or running app. Error: xcrun exited with non-zero code: 2
+...
+```
+
+Yapmanız gereken şu komutla simülatorü açmak:
+
+```bash
+open -a Simulator
+```
+Ve daha sonra `npm run ios` ile projeyi başlatmak olmalı. Benim gibi bir süre uğraşıp sonra bir bakayım neler var deyip hata alanlar için ufak bir çözüm makalesi :)
