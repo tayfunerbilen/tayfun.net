@@ -5,14 +5,24 @@ date: '2022-12-08'
 
 # Centos 9 LAMP Stack Kurulumu
 
-LAMP yani Linux, Apache, Mysql/Mariadb ve PHP'nin kısaltmasıdır. Eğer bir php projesini çalıştırmak için sunucu kurmak istiyorsanız, bu makalede sizlere sırasıyla:
+LAMP yani Linux, Apache, Mysql/Mariadb ve PHP. Eğer bir php projeleriniz için sunucu kurmak istiyorsanız, bu makalede sizlere sırasıyla:
 
-- Apache kurulumunu
-- MariaDB (MySQL) kurulumunu
-- PHP 8 kurulumun
-- phpMyAdmin kurulumunu
+- Apache
+- MariaDB (MySQL)
+- PHP 8
+- phpMyAdmin
 
-görüyor olacağız.
+kurulumlarını göstereceğim.
+
+Başlamadan önce, ben sunucularımı https://digitalocean.com üzerinden alıyorum. Kayıt olduktan sonra kartınızı tanımlayıp panele giriş yapın. Sağ üstten `Create > Droplets` diyerek ilgili sayfaya girin. Ve lokasyon olarak istediğiniz bir lokasyonu seçin, işletim sistemi olarak Centos 9'u seçin, kendinize uygun paketi seçin (şu an için min. aylık 7$) ve root şifrenizi belirleyip kurulumu gerçekleştirin.
+
+Sunucu kurulduktan sonra ip adresini göreceksiniz. Bu ip adresi ile ssh'e şöyle bağlanabilirsiniz:
+
+```sh
+ssh root@IP_ADRES
+```
+
+Sonrada belirlediğiniz root şifresini girip bağlanıyorsunuz. Artık ssh'a bağlandıysanız, ki bu bir terminal yardımıyla olacak. Windows kullananlat putty uygulamasına bakabilir,o taraftaki en güncel client hangisi bilemiyorum. Mac kullananlar, terminal uygulamasını açıp bağlantıyı gerçekleştirdikten sonra aşağıdaki adımları izleyebilir.
 
 ## Apache Kurulumu
 
