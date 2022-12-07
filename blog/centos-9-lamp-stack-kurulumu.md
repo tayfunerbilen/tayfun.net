@@ -124,7 +124,7 @@ Artık test etmek için `/var/www/html` altına girip bir `index.php` dosyası o
 
 Öncelikle EPEL'i yükleyelim.
 
-````
+```
 dnf config-manager --set-enabled crb
 dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
 dnf install https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
