@@ -160,7 +160,7 @@ nano /etc/httpd/conf.d/phpMyAdmin.conf
 
 Not: eğer nano hata verirse `dnf install nano` diyerek paketi kurup tekrar deneyin.
 
-Açılan dosyada `Require denied` kısımlarını `Require all granted` olarak belirleyin ve CTRL + X'e basıp Y tuşuna basın enter'a basıp kaydedin.
+Açılan dosyada `Require local` kısımlarını `Require all granted` olarak belirleyin ve CTRL + X'e basıp Y tuşuna basın enter'a basıp kaydedin.
 
 apache'yi yeniden başlatın:
 
