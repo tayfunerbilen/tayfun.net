@@ -1,6 +1,6 @@
 ---
 title: 'Centos 9 LAMP Stack Kurulumu'
-date: '2022-08-16'
+date: '2022-12-08'
 ---
 
 # Centos 9 LAMP Stack Kurulumu
