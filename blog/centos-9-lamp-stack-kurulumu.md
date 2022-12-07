@@ -22,7 +22,7 @@ Sunucu kurulduktan sonra ip adresini göreceksiniz. Bu ip adresi ile ssh'e şöy
 ssh root@IP_ADRES
 ```
 
-Sonrada belirlediğiniz root şifresini girip bağlanıyorsunuz. Artık ssh'a bağlandıysanız, ki bu bir terminal yardımıyla olacak. Windows kullananlat putty uygulamasına bakabilir,o taraftaki en güncel client hangisi bilemiyorum. Mac kullananlar, terminal uygulamasını açıp bağlantıyı gerçekleştirdikten sonra aşağıdaki adımları izleyebilir.
+Sonrada belirlediğiniz root şifresini girip bağlanıyorsunuz. Artık ssh'a bağlandıysanız, ki bu bir terminal yardımıyla olacak. Windows kullananlar putty uygulamasına bakabilir,o taraftaki en güncel client hangisi bilemiyorum. Mac kullananlar, terminal uygulamasını açıp bağlantıyı gerçekleştirdikten sonra aşağıdaki adımları izleyebilir.
 
 ## Apache Kurulumu
 
